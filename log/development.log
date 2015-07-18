@@ -1,5 +1,6 @@
 
 
+<<<<<<< HEAD
 Started GET "/" for 10.0.2.2 at 2015-07-18 15:06:37 +0000
 Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by Rails::WelcomeController#index as HTML
@@ -63,3 +64,17 @@ ActionController::RoutingError (No route matches [GET] "/about-us.html"):
   Rendered /home/vagrant/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (43.2ms)
   Rendered /home/vagrant/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
   Rendered /home/vagrant/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (105.1ms)
+=======
+Started GET "/" for 10.0.2.2 at 2015-07-18 15:23:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/vagrant/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 32ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/translations" for 10.0.2.2 at 2015-07-18 15:24:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TranslationsController#index as HTML
+  Rendered translations/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+>>>>>>> 425033684f843247ee584e0dd8af20372e39d993
