@@ -1,9 +1,11 @@
 
 
 class Translation
-    def initialize(english, dutch)
+    def initialize(english, dutch, picture, sound)
       @english = english
       @dutch = dutch
+      @picture= picture
+      @sound=sound
     end
 
     def ask

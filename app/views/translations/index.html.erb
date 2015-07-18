@@ -1,1 +1,17 @@
-This is translations
+<h1>Listing translation</h1>
+
+<table>
+  <tr>
+    <th>english</th>
+    <th>dutch</th>
+  </tr>
+
+  <% @translations.each do |translation| %>
+    <tr>
+      <td><%= translation.english %></td>
+      <td><%= translation.dutch %></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= link_to 'New translation', new_translation_path %>
