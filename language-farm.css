@@ -1,0 +1,54 @@
+body{
+margin: 0px;
+padding: 0px;
+font-family: Helvetica;
+background-color: #46C9E3
+;
+background-repeat: no-repeat;
+}.header {
+background-color: #ffffff
+;
+height: 120px;
+width: 100%;
+margin-top: 0px;
+position: fixed;
+left:0;
+top:0;
+background-repeat: repeat-x;
+}.header p{
+text-align: center;
+font-size: 64px;
+padding-top: 25px;
+color: #000000
+;
+font-family: Agency FB;
+font-weight:bold;
+margin: 0px;
+}.menu_bar {
+background-color: #ff343f
+;
+height: 50px;
+width: 100%;
+left: 0px;
+top: 120px;
+position: fixed;
+}.menu_bar p{
+text-align: center;
+color: black;
+padding-top: 0px;
+font-size: 24px;
+font-weight: bold;
+padding-bottom: 100;
+}.start {
+background-color: #ffffff
+;
+width: 80%;
+margin-top: 200px;
+margin-left: auto;
+margin-right: auto;
+width: 1400px;
+height: 400px;
+left: 200;
+top: 200;
+position: fixed center;
+} 
