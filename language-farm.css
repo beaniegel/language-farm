@@ -69,6 +69,31 @@ body{
   overflow-y: auto;
   background-color: white;
 }
+
+.content p1{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: white;
+}
+
+.fija {
+  width: 10%;
+  height: 10%;
+}
+
+.mikael {
+  width: 10%;
+  height: 10%;
+}
+
+.jelena {
+  width: 10%;
+  height: 10%;
+}
 /*
 .content {
   background-color: #ffffff;
