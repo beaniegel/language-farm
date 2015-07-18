@@ -76,6 +76,7 @@ body{
   background-color: white;
 }
 
+/* ------------- pictures aligning --------------- */
 .fija {
   margin-left: 100px;
   width: 15%;
@@ -88,34 +89,23 @@ body{
   width: 15%;
   height: 20%;
   border-radius: 100%;
-  margin-left: 50%;
+
 
 }
 
 .jelena {
-  float: left;
   width: 15%;
   height: 20%;
   border-radius: 100%;
-    margin-left: 0%;
 }
 
-.content p2 {
+.content p1 {
   display: inline;
+  font-family: arial;
+  font-size: 
 }
-/*
-.content {
-  background-color: #ffffff;
-  margin-top: 200px;
-  width: 80%;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 200;
-  top: 200;
-  position: fixed center;
-  padding: 50px;
-}
+
+
 /* ------------- links --------------- */
 a {
   color: #000000;
