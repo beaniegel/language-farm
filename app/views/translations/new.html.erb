@@ -1,0 +1,28 @@
+<h1>New Article</h1>
+
+<%= form_for :translation, url: translations_path do |t| %>
+  <p>
+    <%= t.label :dutch %><br>
+    <%= t.text_field :dutch %>
+  </p>
+
+  <p>
+    <%= t.label :english %><br>
+    <%= t.text_field :english %>
+  </p>
+
+    <p>
+      <%= t.label :image %><br>
+      <%= t.text_field :image %>
+    </p>
+
+    <p>
+      <%= t.label :sound %><br>
+      <%= t.text_field :sound %>
+    </p>
+
+
+  <p>
+    <%= t.submit %>
+  </p>
+<% end %>
